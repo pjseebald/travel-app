@@ -1,0 +1,11 @@
+Driver Dan
+Driver Alex
+Driver Bob
+Trip Dan 07:15 07:45 17.3
+Trip Dan 06:12 06:32 21.8
+Trip Alex 12:01 13:16 42.0
+Driver Jane
+Driver Jen
+Trip Jane 08:40 09:45 53.4
+Trip Jen 15:15 16:00 33.2
+Trip Jane 21:20 22:05 60.3
