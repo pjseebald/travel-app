@@ -68,6 +68,7 @@
 	-->
 	<property name="jar.file" 	value="travel.jar"/>
 	<property name="main-class" value="io.pjseebald.travel.MainApp"/>
+	<property name="created-by-name" value="Paul Seebald" />
 	
 	<manifestclasspath property="manifest.classpath" jarfile="${jar.file}">
 		<classpath>
@@ -80,6 +81,7 @@
 			<manifest>
 				<attribute name="Main-Class" value="${main-class}"/>
 	    		<attribute name="Class-Path" value="${manifest.classpath}"/>
+				<attribute name="Created-By" value="${created-by-name}"/>
 	    	</manifest>
 	    	<fileset dir="bin" includes="**/*.class"/>			
 	    </jar>
